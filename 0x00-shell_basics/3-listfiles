@@ -1,2 +1,2 @@
--rw-rw-r-- 1 vagrant vagrant  4 Jan 29 18:33 0-current_working_directory
--rw-rw-r-- 1 vagrant vagrant 18 Jan 29 19:23 1-listit
+#!/bin/bash
+ls -l
