@@ -1,0 +1,8 @@
+total 24
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 29 20:23 .
+drwxrwxr-x 4 vagrant vagrant 4096 Jan 29 19:06 ..
+-rw-rw-r-- 1 vagrant vagrant    4 Jan 29 18:33 0-current_working_directory
+-rw-rw-r-- 1 vagrant vagrant   18 Jan 29 19:23 1-listit
+-rw-rw-r-- 1 vagrant vagrant    7 Jan 29 20:21 2-bring_me_home
+-rw-rw-r-- 1 vagrant vagrant  127 Jan 29 20:03 3-listfiles
+-rw-rw-r-- 1 vagrant vagrant    0 Jan 29 20:23 4-listmorefiles
