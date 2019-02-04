@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 find . -name "*.gif" -type f | rev | cut -d "/" -f 1 | rev | cut -d "." -f 1 | sort 
+=======
+find . -name "*.gif" -type f | rev | cut -d "/" -f 1 | cut -d "." -f 2,3 | rev | sort -fV
+>>>>>>> a145115eb3827307543de5f36ad345f399023041
