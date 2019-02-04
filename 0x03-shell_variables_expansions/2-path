@@ -1,2 +1,2 @@
 #!/bin/bash
-PATH=$PATH:~/snap/bin:/action
+PATH=$PATH:~/action
