@@ -1,0 +1,2 @@
+#!/bin/bash
+for c in {a..z}{a..z}; do echo $c; done | grep -v oo
