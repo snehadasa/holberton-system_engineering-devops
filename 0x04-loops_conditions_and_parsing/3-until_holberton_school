@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+x=10
+until [ $x -lt 1 ]
+do
+	echo "Holberton School"
+	(( x-=1 ))
+done
