@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# printing the script 10 times
 
 for i in {1..10}
 do
