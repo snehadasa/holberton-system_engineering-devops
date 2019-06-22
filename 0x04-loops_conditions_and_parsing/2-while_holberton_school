@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# using while loop
 
 x=1
 while [ $x -le 10 ] 
