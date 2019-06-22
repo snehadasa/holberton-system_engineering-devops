@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# using until to print script
 
 x=10
 until [ $x -lt 1 ]

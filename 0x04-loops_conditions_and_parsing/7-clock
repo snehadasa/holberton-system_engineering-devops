@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# using while to print hour and minutes
 
 hour=0
 while [ $hour -le 12 ]
