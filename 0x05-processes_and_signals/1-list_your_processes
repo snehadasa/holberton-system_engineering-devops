@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # bash script to print the processes running at the moment
 
-ps -aux
+ps -auxf
