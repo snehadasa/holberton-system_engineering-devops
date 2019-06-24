@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
+# bash script to print the processess running at the moment with bash name
+# shellcheck disable=SC2009
+
 ps -aux | grep bash

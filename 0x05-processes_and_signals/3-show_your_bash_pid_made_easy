@@ -1,1 +1,4 @@
 #!/usr/bin/env bash
+# to get the process id with a name Bash printed
+
+pgrep -l bash

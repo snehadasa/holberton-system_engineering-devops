@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
+# bash script to print its own pid no.
+
 echo $$
