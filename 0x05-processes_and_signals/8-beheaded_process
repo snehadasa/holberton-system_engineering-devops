@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # bash script to kill a process completely
 
-kill -9 "$(pgrep -f 7-highlander)"
+pkill -SIGKILL -f 7-highlander
