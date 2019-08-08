@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# command you used to fix the issue in your answer file.
+#issue: unable to find image locally
+#sudo docker run -p 8080:80 -d -it holbertonschool/265-0
+#sudo docker ps
+#sudo docker exec -ti 73fb70ece126 /bin/bash
+#curl 0:8080
+/etc/init.d/apache2 restart
