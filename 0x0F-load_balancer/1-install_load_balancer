@@ -13,4 +13,4 @@ backend My_Web_Servers
 	balance roundrobin
 	server web1.local 35.229.72.201:80
 	server web2.local 35.237.176.253\n" >> /etc/haproxy/haproxy.cfg
-service haproxy start
+service haproxy restart
