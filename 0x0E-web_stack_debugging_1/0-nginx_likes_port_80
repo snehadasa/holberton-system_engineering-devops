@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 #Nginx likes port 80 web stack debugging
 
-ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+apt-get -y update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 service nginx restart
