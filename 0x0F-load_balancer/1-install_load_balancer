@@ -11,6 +11,6 @@ printf "\nfrontend Local_Server
 backend My_Web_Servers
 	mode http
 	balance roundrobin
-	server web1.local 35.229.72.201:80
-	server web2.local 35.237.176.253:80\n" >> /etc/haproxy/haproxy.cfg
+	server 687-web1.local 35.229.72.201:80
+	server 687-web2.local 35.237.176.253:80\n" >> /etc/haproxy/haproxy.cfg
 service haproxy restart
