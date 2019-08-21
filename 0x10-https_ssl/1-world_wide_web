@@ -9,5 +9,5 @@ else
 fi
 for sd in "${s[@]}"
 do
-	dig "$sd.$1" | grep -A1 'ANSWER SECTION:' | tail -n -1 | awk '{ print "The subdomain '$sd' is a " $4 " record and points to " $5}'
+	dig "$sd.$1" | grep -A1 'ANSWER SECTION:' | tail -1 | awk '{ print "The subdomain '$sd' is a " $4 " record and points to " $5}'
 done
