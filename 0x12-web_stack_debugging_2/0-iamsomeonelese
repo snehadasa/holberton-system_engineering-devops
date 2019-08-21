@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-#su root -c '$1'
+#adduser command to add a new user to your system if logged in as root.
+#adduser nginx (p:nginx)
 #Run software as another user
 sudo -u "$1" whoami
