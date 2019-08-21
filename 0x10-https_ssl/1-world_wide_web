@@ -5,7 +5,7 @@
 if [ "$#" -eq 2 ];then
 	s=$2
 else
-	s=("www" "web-01" "web-02" "lb-01")
+	s=("www" "lb-01" "web-01" "web-02")
 fi
 for sd in "${s[@]}"
 do
