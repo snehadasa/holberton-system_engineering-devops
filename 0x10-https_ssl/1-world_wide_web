@@ -2,10 +2,10 @@
 #Configuring domain zone (snehadasa.tech) so that the subdomain www points to your
 #load-balancer IP (lb-01) (34.73.212.78).
 
-if [ "$#" -eq 2 ];then
-	s=$2
-else
+if [ "$#" -eq 1 ];then
 	s=("www" "lb-01" "web-01" "web-02")
+else
+	s=$2
 fi
 for sd in "${s[@]}"
 do
