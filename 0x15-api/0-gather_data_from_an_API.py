@@ -20,9 +20,8 @@ if __name__ == "__main__":
     completed = 0
     tasks = []
     for task in todo:
-        if task.get('userId') == u_id:
-            total += 1
-        if task.get('completed'):
+        total += 1
+        if task.get('completed') is True:
             completed += 1
             tasks.append(task.get('title'))
     print("Employee {} is done with tasks({}/{}):"
