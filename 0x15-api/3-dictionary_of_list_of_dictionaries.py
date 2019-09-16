@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 """Dictionary of list of dictionaries"""
 
-import urllib
+import json
 import requests
 from sys import argv
-import json
 
 
 if __name__ == "__main__":
@@ -22,7 +21,7 @@ if __name__ == "__main__":
         tasks = []
         for task in todo:
             dic = {"username": name, "task": task.get('title'),
-                       "completed": task.get('completed')}
+                   "completed": task.get('completed')}
             tasks.append(dic)
         json_f[u_id] = tasks
     with open("todo_all_employees.json", mode='w') as file:

@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 """Gather data from an API"""
 
-import urllib
+import json
 import requests
 from sys import argv
-import json
 
 
 if __name__ == "__main__":

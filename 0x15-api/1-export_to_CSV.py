@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 """Gather data from an API and export to csv"""
 
-import urllib
+import csv
+import json
 import requests
 from sys import argv
-import json
-import csv
 
 
 if __name__ == "__main__":
