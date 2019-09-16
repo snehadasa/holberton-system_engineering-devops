@@ -20,7 +20,6 @@ if __name__ == "__main__":
         u_id = u_req.get('id')
         name = u_req.get('username')
         tasks = []
-        json_f = {}
         for task in todo:
             dic = {"username": name, "task": task.get('title'),
                        "completed": task.get('completed')}
