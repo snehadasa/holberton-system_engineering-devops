@@ -15,7 +15,8 @@ if __name__ == "__main__":
     user_request = requests.get("https://jsonplaceholder.typicode.com/users/{}"
                                 .format(u_id)).json()
     name = user_request.get('name')
-    todo = requests.get("https://jsonplaceholder.typicode.com/todos").json()
+    todo = requests.get("https://jsonplaceholder.typicode.com/todos?userId={}"
+                        .format(u_id)).json()
 
     with open("{}.csv".format(u_id), mode='w') as file:
         e_writer = csv.writer(file, delimiter=',', quoting=csv.QUOTE_ALL)
