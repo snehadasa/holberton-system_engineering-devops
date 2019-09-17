@@ -20,9 +20,10 @@ if __name__ == "__main__":
         name = u_req.get('username')
         tasks = []
         for task in todo:
-            dic = {"username": name, "task": task.get('title'),
-                   "completed": task.get('completed')}
-            tasks.append(dic)
+            if task.get('userId') == u_id:
+                dic = {"username": name, "task": task.get('title'),
+                       "completed": task.get('completed')}
+                tasks.append(dic)
         json_f[u_id] = tasks
     with open("todo_all_employees.json", mode='w') as file:
         json.dump(json_f, file)
