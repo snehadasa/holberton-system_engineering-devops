@@ -13,6 +13,7 @@ if __name__ == "__main__":
     user_request = requests.get("https://jsonplaceholder.typicode.com/users")
     user_request = user_request.json()
     todo = requests.get("https://jsonplaceholder.typicode.com/todos").json()
+    print(todo)
 
     json_f = {}
     for u_req in user_request:
