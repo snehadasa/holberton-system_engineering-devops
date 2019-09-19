@@ -17,6 +17,7 @@ def top_ten(subreddit):
 
     if request_url.status_code >= 300:
         print(None)
+        return
 
     request_url = request_url.json()
 
@@ -25,3 +26,4 @@ def top_ten(subreddit):
             print(children_title.get("data").get("title"))
     else:
         print(None)
+        return
